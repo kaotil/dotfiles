@@ -1,0 +1,12 @@
+escape ^X^X
+bind r resize
+hardstatus alwayslastline "%`%-w%{=b bw}%n %t%{-}%+w"
+bind = resize =
+bind - resize -1
+bind + resize +1
+bind _ resize max
+
+defencoding utf-8
+
+vbell off
+bell off
